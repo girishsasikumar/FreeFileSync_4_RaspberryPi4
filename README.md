@@ -36,10 +36,10 @@ sudo ln -s /usr/lib/arm-linux-gnueabihf/crtn.o /usr/lib/crtn.o
 gcc-10.1 --version
 
 # I see the below in my Pi4
-# gcc-10.1 (GCC) 10.1.0
-# Copyright (C) 2020 Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.  There is NO
-# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+gcc-10.1 (GCC) 10.1.0
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # Test gcc
 nano if_test.cpp
