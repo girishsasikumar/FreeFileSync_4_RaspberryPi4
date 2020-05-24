@@ -77,7 +77,7 @@ sudo apt install libboost-all-dev
 # Download FFS source from
 https://freefilesync.org/download/FreeFileSync_10.14_Source.zip
 
-#Unzip and do the following changed
+# Unzip and do the following changed
 
 The Makefile is at FreeFileSync_10.14_Source/FreeFileSync/Source/Makefile. We need to change all occurrances (there should be two) of "g++" to "g++-10.1" .
 also per jmsxl you need to: change gtk+-2.0 to gtk+-3.0 and add "-latomic" to the end of LINKFLAGS (there are a number of loactions, so change them all)
@@ -90,5 +90,6 @@ also In "afs/sftp.cpp", add at line 1662 (just before the #if)
 
 Run "make" in folder FreeFileSync_10.14_Source/FreeFileSync/Source. It will take roughly hour plus.
 
+# Binary to use
 The binary should be waiting for you in FreeFileSync_10.14_Source/FreeFileSync/Build/Bin.
 I opened it in a terminal and executed: ./FreeFileSync_armv7l
